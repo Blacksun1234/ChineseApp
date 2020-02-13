@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/learn"
+        android:icon="@drawable/ic_learn_black_24dp"
+        android:title="Learn"/>
+
+    <item
+        android:id="@+id/social"
+        android:icon="@drawable/ic_social_black_24dp"
+        android:title="Social"/>
+
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Dashboard"/>
+
+    <item
+        android:id="@+id/me"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="Me"/>
+
+</menu>
