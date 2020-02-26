@@ -21,13 +21,13 @@ android:paddingTop="16dp" >
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" >
 
-                <android.support.design.widget.BottomNavigationView
-                    android:layout_height="match_parent"
-                    android:layout_width="match_parent"
-                    android:layout_alignParentBottom="true"
-                    app:menu="@menu/bottom_navigation"
-                    android:background="?android:attr/windowBackground"/>
-
+              <com.google.android.material.bottomnavigation.BottomNavigationView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  app:menu="@menu/bottom_navigation"
+                  android:layout_alignParentBottom="true"
+                  android:background="?android:attr/windowBackground"
+                  />
         </RelativeLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
