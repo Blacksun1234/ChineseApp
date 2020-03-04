@@ -9,19 +9,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Menu extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.menu);
-
-        if(savedInstanceState == null){
-            getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, new Learn()).commit();
-        }
-
-        BottomNavigationView bottomNavigationView = findViewById(R.id.neg_bar);
-        bottomNavigationView.setOnNavigationItemSelectedListener(navigationItemSelectedListener);
-    }
-
     private BottomNavigationView.OnNavigationItemSelectedListener navigationItemSelectedListener =
             new BottomNavigationView.OnNavigationItemSelectedListener() {
                 @Override
@@ -42,8 +29,21 @@ public class Menu extends AppCompatActivity {
                             break;
                     }
 
-                    getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, fragment).commit();
+                    if(fragment != null){
+                        getSupportFragmentManager().beginTransaction().replace(R.id.content, fragment).commit();
+                    }
                     return true;
                 }
             };
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.menu);
+
+        getSupportFragmentManager().beginTransaction().replace(R.id.content, new Learn()).commit();
+
+        BottomNavigationView bottomNavigationView = findViewById(R.id.navigation);
+        bottomNavigationView.setOnNavigationItemSelectedListener(navigationItemSelectedListener);
+    }
 }
