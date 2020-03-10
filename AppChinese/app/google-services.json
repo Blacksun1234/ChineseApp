@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "342555230244",
+    "firebase_url": "https://appchinese-daa48.firebaseio.com",
+    "project_id": "appchinese-daa48",
+    "storage_bucket": "appchinese-daa48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342555230244:android:4750e48b4f6e063c00d8b1",
+        "android_client_info": {
+          "package_name": "com.project.appchinese"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342555230244-77eqq20vpubjnu5ll9bjkmv27o7d34pf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgXFx3Zorx6zQmqvbKVVqadfQvPWfSuxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342555230244-77eqq20vpubjnu5ll9bjkmv27o7d34pf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
