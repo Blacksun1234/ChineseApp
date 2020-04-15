@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
@@ -32,16 +34,17 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
 
-        mAuth = FirebaseAuth.getInstance();
-        mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
+        //mAuth = FirebaseAuth.getInstance();
+        //mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
+    /*
     private void signIn() {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, RC_SIGN_IN);
     }
+
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -59,14 +62,19 @@ public class MainActivity extends AppCompatActivity {
 
             }
         }
-    }
+    }*/
     
     @Override
     public void onStart() {
         super.onStart();
-        checkLogin();
+        //checkLogin();
     }
 
+    public void onClickNext(View view){
+        Intent intent = new Intent(this,Menu.class);
+        startActivity(intent);
+    }
+/*
     private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
         //Log.d(TAG, "firebaseAuthWithGoogle:" + acct.getId());
 
@@ -90,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent =new Intent(this,Menu.class);
             startActivity(intent);
         }
-    }
+    }*/
 }
 
 
