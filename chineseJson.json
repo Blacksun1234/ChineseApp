@@ -1,0 +1,860 @@
+[
+ {
+   "Thème": "Famille",
+   "FR": "Famille",
+   "Hanzi": "家",
+   "Pinyin": "Jiā"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Ami",
+   "Hanzi": "朋友",
+   "Pinyin": "Péngyǒu"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Père",
+   "Hanzi": "父亲",
+   "Pinyin": "Fùqīn"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Mère",
+   "Hanzi": "母亲",
+   "Pinyin": "Mǔqīn"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Papa",
+   "Hanzi": "爸爸",
+   "Pinyin": "bàbà"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Maman",
+   "Hanzi": "妈 妈",
+   "Pinyin": "māma"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Frère",
+   "Hanzi": "兄弟",
+   "Pinyin": "Xiōngdì"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Sœur",
+   "Hanzi": "姐妹",
+   "Pinyin": "Jiěmèi"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Fils",
+   "Hanzi": "儿子",
+   "Pinyin": "Érzi"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Fille",
+   "Hanzi": "女儿",
+   "Pinyin": "Nǚ'ér"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Oncle",
+   "Hanzi": "叔叔",
+   "Pinyin": "Shūshu"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Tante",
+   "Hanzi": "姨",
+   "Pinyin": "Yí"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Neveu",
+   "Hanzi": "侄儿",
+   "Pinyin": "Zhí er"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Nièce",
+   "Hanzi": "侄女",
+   "Pinyin": "Zhínǚ"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Cousin",
+   "Hanzi": "表兄",
+   "Pinyin": "biǎo xiōng"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Cousine",
+   "Hanzi": "表姊妹",
+   "Pinyin": "biǎo zǐmèi"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Grand-père",
+   "Hanzi": "爷爷",
+   "Pinyin": "yéyé"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Grand-mère",
+   "Hanzi": "奶奶",
+   "Pinyin": "nǎinai"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Petit-fils",
+   "Hanzi": "孙子",
+   "Pinyin": "Sūnzi"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Petite-fille",
+   "Hanzi": "孙女",
+   "Pinyin": "Sūnnǚ"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Petite amie",
+   "Hanzi": "女朋友",
+   "Pinyin": "Nǚ péngyǒu"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Petit ami",
+   "Hanzi": "男朋友",
+   "Pinyin": "Nán péngyǒu"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Anniversaire",
+   "Hanzi": "生日",
+   "Pinyin": "Shēngrì"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Naissance",
+   "Hanzi": "出生",
+   "Pinyin": "Chūshēng"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Enfants",
+   "Hanzi": "孩子",
+   "Pinyin": "Háizi"
+ },
+ {
+   "Thème": "Famille",
+   "FR": "Parents",
+   "Hanzi": "父母",
+   "Pinyin": "Fùmǔ"
+ },
+ {
+   "Thème": "Pronom Perso",
+   "FR": "Je",
+   "Hanzi": "我",
+   "Pinyin": "wŏ"
+ },
+ {
+   "Thème": "Pronom Perso",
+   "FR": "Tu",
+   "Hanzi": "你",
+   "Pinyin": "nĭ"
+ },
+ {
+   "Thème": "Pronom Perso",
+   "FR": "Il",
+   "Hanzi": "他",
+   "Pinyin": "tā"
+ },
+ {
+   "Thème": "Pronom Perso",
+   "FR": "Elle",
+   "Hanzi": "她",
+   "Pinyin": "tā"
+ },
+ {
+   "Thème": "Pronom Perso",
+   "FR": "Nous",
+   "Hanzi": "我们",
+   "Pinyin": "wŏmen"
+ },
+ {
+   "Thème": "Pronom Perso",
+   "FR": "Vous",
+   "Hanzi": "你们",
+   "Pinyin": "nĭmen"
+ },
+ {
+   "Thème": "Pronom Perso",
+   "FR": "Ils",
+   "Hanzi": "他们",
+   "Pinyin": "tāmen"
+ },
+ {
+   "Thème": "Pronom Perso",
+   "FR": "Elles",
+   "Hanzi": "她们",
+   "Pinyin": "tāmen"
+ },
+ {
+   "Thème": "Verbes usuels",
+   "FR": "Être",
+   "Hanzi": "是",
+   "Pinyin": "shì"
+ },
+ {
+   "Thème": "Verbes usuels",
+   "FR": "Regarder",
+   "Hanzi": "看",
+   "Pinyin": "kān"
+ },
+ {
+   "Thème": "Verbes usuels",
+   "FR": "Manger",
+   "Hanzi": "吃",
+   "Pinyin": "chī"
+ },
+ {
+   "Thème": "Verbes usuels",
+   "FR": "Boire",
+   "Hanzi": "喝",
+   "Pinyin": "hē"
+ },
+ {
+   "Thème": "Verbes usuels",
+   "FR": "Parler",
+   "Hanzi": "说",
+   "Pinyin": "shuō"
+ },
+ {
+   "Thème": "Verbes usuels",
+   "FR": "Aller",
+   "Hanzi": "去",
+   "Pinyin": "qù"
+ },
+ {
+   "Thème": "Verbes usuels",
+   "FR": "Acheter",
+   "Hanzi": "买",
+   "Pinyin": "mǎi"
+ },
+ {
+   "Thème": "Pays I",
+   "FR": "France",
+   "Hanzi": "法国",
+   "Pinyin": "Fàguó"
+ },
+ {
+   "Thème": "Pays I",
+   "FR": "Chine",
+   "Hanzi": "中国",
+   "Pinyin": "Zhōngguó"
+ },
+ {
+   "Thème": "Pays I",
+   "FR": "État-Unis",
+   "Hanzi": "美国",
+   "Pinyin": "Měiguó"
+ },
+ {
+   "Thème": "Pays I",
+   "FR": "Français",
+   "Hanzi": "法国人",
+   "Pinyin": "Fàguó rén"
+ },
+ {
+   "Thème": "Pays I",
+   "FR": "Chinois",
+   "Hanzi": "中国人",
+   "Pinyin": "Zhōngguó rén"
+ },
+ {
+   "Thème": "Pays I",
+   "FR": "Américain",
+   "Hanzi": "美国人",
+   "Pinyin": "Měiguó rén"
+ },
+ {
+   "Thème": "Basis I",
+   "FR": "pas",
+   "Hanzi": "不",
+   "Pinyin": "bù"
+ },
+ {
+   "Thème": "Pronom Poss",
+   "FR": "mon",
+   "Hanzi": "我的",
+   "Pinyin": "wǒ de"
+ },
+ {
+   "Thème": "Pronom Poss",
+   "FR": "ton",
+   "Hanzi": "你的",
+   "Pinyin": "nǐ de"
+ },
+ {
+   "Thème": "Pronom Poss",
+   "FR": "son",
+   "Hanzi": "他的",
+   "Pinyin": "tā de"
+ },
+ {
+   "Thème": "Pronom Poss",
+   "FR": "sa",
+   "Hanzi": "她的",
+   "Pinyin": "tā de"
+ },
+ {
+   "Thème": "Pronom Poss",
+   "FR": "mes",
+   "Hanzi": "我们的",
+   "Pinyin": "wǒmen de"
+ },
+ {
+   "Thème": "Pronom Poss",
+   "FR": "tes",
+   "Hanzi": "你们的",
+   "Pinyin": "nǐmen de"
+ },
+ {
+   "Thème": "Pronom Poss",
+   "FR": "ses (masculin)",
+   "Hanzi": "他们的",
+   "Pinyin": "tāmen de"
+ },
+ {
+   "Thème": "Pronom Poss",
+   "FR": "ses (fem)",
+   "Hanzi": "她们的",
+   "Pinyin": "tāmen de"
+ },
+ {
+   "Thème": "Basis I",
+   "FR": "cela",
+   "Hanzi": "这",
+   "Pinyin": "Zhè"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Canard",
+   "Hanzi": "鸭",
+   "Pinyin": "Yā"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Bouc",
+   "Hanzi": "公山羊",
+   "Pinyin": "Gōng shānyáng"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Jument",
+   "Hanzi": "母马",
+   "Pinyin": "Mǔ mǎ"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Poulain",
+   "Hanzi": "马驹",
+   "Pinyin": "Mǎ jū"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Veau",
+   "Hanzi": "牛犊",
+   "Pinyin": "Niúdú"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Taureau",
+   "Hanzi": "公牛",
+   "Pinyin": "Gōngniú"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Agneau",
+   "Hanzi": "羔羊",
+   "Pinyin": "Gāoyáng"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Chevreau",
+   "Hanzi": "小山羊",
+   "Pinyin": "Xiǎo shānyáng"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Chaton",
+   "Hanzi": "小猫",
+   "Pinyin": "Xiǎo māo"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Chiot",
+   "Hanzi": "小狗",
+   "Pinyin": "Xiǎo gǒu"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Poussin",
+   "Hanzi": "小鸡",
+   "Pinyin": "Xiǎo jī"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Brebis",
+   "Hanzi": "母羊",
+   "Pinyin": "Mǔ yáng"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Mouton",
+   "Hanzi": "绵羊",
+   "Pinyin": "Miányáng"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Chien",
+   "Hanzi": "狗",
+   "Pinyin": "Gǒu"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Chat",
+   "Hanzi": "猫",
+   "Pinyin": "Māo"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Vache",
+   "Hanzi": "奶牛",
+   "Pinyin": "Nǎiniú"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Chèvre",
+   "Hanzi": "山羊",
+   "Pinyin": "Shānyáng"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Cochon",
+   "Hanzi": "猪",
+   "Pinyin": "Zhū"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Cheval",
+   "Hanzi": "马",
+   "Pinyin": "Mǎ"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Âne",
+   "Hanzi": "驴",
+   "Pinyin": "Lǘ"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Mule",
+   "Hanzi": "母骡",
+   "Pinyin": "Mǔ luó"
+ },
+ {
+   "Thème": "Ani I",
+   "FR": "Poule",
+   "Hanzi": "母鸡",
+   "Pinyin": "Mǔ jī"
+ },
+ {
+   "Thème": "Verbes usuels",
+   "FR": "Manger",
+   "Hanzi": "吃",
+   "Pinyin": "Chī"
+ },
+ {
+   "Thème": "Verbes usuels",
+   "FR": "Boire",
+   "Hanzi": "喝",
+   "Pinyin": "Hē"
+ },
+ {
+   "Thème": "Verbes usuels",
+   "FR": "Dormir",
+   "Hanzi": "睡觉",
+   "Pinyin": "Shuìjiào"
+ },
+ {
+   "Thème": "Verbes usuels",
+   "FR": "Faire",
+   "Hanzi": "做",
+   "Pinyin": "Zuò"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Gâteau",
+   "Hanzi": "蛋糕",
+   "Pinyin": "Dàngāo"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Pomme de terre",
+   "Hanzi": "土豆",
+   "Pinyin": "Tǔdòu"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Pain",
+   "Hanzi": "面包",
+   "Pinyin": "Miànbāo"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Tomate",
+   "Hanzi": "番茄",
+   "Pinyin": "Fānqié"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Jus",
+   "Hanzi": "果汁",
+   "Pinyin": "Guǒzhī"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Viande",
+   "Hanzi": "肉",
+   "Pinyin": "Ròu"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Légume",
+   "Hanzi": "蔬菜",
+   "Pinyin": "Shūcài"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Fruits",
+   "Hanzi": "水果",
+   "Pinyin": "Shuǐguǒ"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Poisson",
+   "Hanzi": "鱼",
+   "Pinyin": "Yú"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Volaille",
+   "Hanzi": "家禽",
+   "Pinyin": "Jiāqín"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Boeuf",
+   "Hanzi": "牛肉",
+   "Pinyin": "NiúRòu"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Eau",
+   "Hanzi": "水",
+   "Pinyin": "Shuǐ"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Pomme",
+   "Hanzi": "苹果",
+   "Pinyin": "Píngguǒ"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Orange",
+   "Hanzi": "橙子",
+   "Pinyin": "Chéngzi"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Soupe",
+   "Hanzi": "汤",
+   "Pinyin": "Tāng"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Riz",
+   "Hanzi": "米",
+   "Pinyin": "Mǐ"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Alcool",
+   "Hanzi": "酒",
+   "Pinyin": "Jiǔ"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Vin",
+   "Hanzi": "葡萄酒",
+   "Pinyin": "Pútáojiǔ"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Bière",
+   "Hanzi": "啤酒",
+   "Pinyin": "Píjiǔ"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Oeuf",
+   "Hanzi": "鸡蛋",
+   "Pinyin": "Jīdàn"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Thé",
+   "Hanzi": "茶",
+   "Pinyin": "chá"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Café",
+   "Hanzi": "咖啡",
+   "Pinyin": "Kāfēi"
+ },
+ {
+   "Thème": "Nourriture",
+   "FR": "Carotte",
+   "Hanzi": "胡萝卜",
+   "Pinyin": "Húluóbo"
+ },
+ {
+   "Thème": "École",
+   "FR": "études",
+   "Hanzi": "学业",
+   "Pinyin": "Xuéyè"
+ },
+ {
+   "Thème": "École",
+   "FR": "étudiant",
+   "Hanzi": "学生",
+   "Pinyin": "Xuéshēng"
+ },
+ {
+   "Thème": "École",
+   "FR": "Professeur",
+   "Hanzi": "老师",
+   "Pinyin": "lăoshī"
+ },
+ {
+   "Thème": "Métier",
+   "FR": "Ingénieur",
+   "Hanzi": "工程师",
+   "Pinyin": "Gōngchéngshī"
+ },
+ {
+   "Thème": "Métier",
+   "FR": "Ouvrier",
+   "Hanzi": "工人",
+   "Pinyin": "Gōngrén"
+ },
+ {
+   "Thème": "Métier",
+   "FR": "Employé",
+   "Hanzi": "职员",
+   "Pinyin": "Zhíyuán"
+ },
+ {
+   "Thème": "Métier",
+   "FR": "Directeur",
+   "Hanzi": "经理",
+   "Pinyin": "Jīnglǐ"
+ },
+ {
+   "Thème": "Métier",
+   "FR": "Infirmière",
+   "Hanzi": "护士",
+   "Pinyin": "Hùshì"
+ },
+ {
+   "Thème": "Métier",
+   "FR": "Avocat",
+   "Hanzi": "律师",
+   "Pinyin": "Lǜshī"
+ },
+ {
+   "Thème": "Métier",
+   "FR": "Vendeur",
+   "Hanzi": "售货员",
+   "Pinyin": "Shòuhuòyuán"
+ },
+ {
+   "Thème": "Métier",
+   "FR": "Caissier",
+   "Hanzi": "出纳员",
+   "Pinyin": "Chūnà yuán"
+ },
+ {
+   "Thème": "Métier",
+   "FR": "Employer",
+   "Hanzi": "雇用",
+   "Pinyin": "Gùyòng"
+ },
+ {
+   "Thème": "Métier",
+   "FR": "Informaticien",
+   "Hanzi": "计算机人员",
+   "Pinyin": "Jìsuànjī rényuán"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Restaurant",
+   "Hanzi": "饭馆",
+   "Pinyin": "fànguǎn"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Boutique",
+   "Hanzi": "商店",
+   "Pinyin": "Shāngdiàn"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Librairie",
+   "Hanzi": "书店",
+   "Pinyin": "Shūdiàn"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Boulangerie",
+   "Hanzi": "面包店",
+   "Pinyin": "Miànbāo diàn"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Boucherie",
+   "Hanzi": "肉店",
+   "Pinyin": "Ròu diàn"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Pharmacie",
+   "Hanzi": "药店",
+   "Pinyin": "Yàodiàn"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Banque",
+   "Hanzi": "银行",
+   "Pinyin": "Yínháng"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Hôpital",
+   "Hanzi": "医院",
+   "Pinyin": "Yīyuàn"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Supermarché",
+   "Hanzi": "超级市场",
+   "Pinyin": "Chāojí shìchǎng"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Gare ferroviaire",
+   "Hanzi": "火车站",
+   "Pinyin": "Huǒchē zhàn"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Gare routière",
+   "Hanzi": "公车站",
+   "Pinyin": "Gōngchē zhàn"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Aéroport",
+   "Hanzi": "飞机场",
+   "Pinyin": "Fēijī chǎng"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Aérodrome",
+   "Hanzi": "飞机场",
+   "Pinyin": "Fēijī chǎng"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Port",
+   "Hanzi": "港口",
+   "Pinyin": "Gǎngkǒu"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Eglise",
+   "Hanzi": "教堂",
+   "Pinyin": "Jiàotáng"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Temple",
+   "Hanzi": "庙；寺院",
+   "Pinyin": "Miào; sìyuàn"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Mosquée",
+   "Hanzi": "清真寺",
+   "Pinyin": "Qīngzhēnsì"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Ambassade",
+   "Hanzi": "大使馆",
+   "Pinyin": "Dàshǐ guǎn"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Consulat",
+   "Hanzi": "领事馆",
+   "Pinyin": "Lǐngshìguǎn"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Poste",
+   "Hanzi": "邮局",
+   "Pinyin": "Yóujú"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Ecole",
+   "Hanzi": "学校",
+   "Pinyin": "Xuéxiào"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Lycée",
+   "Hanzi": "中学",
+   "Pinyin": "Zhōngxué"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Université",
+   "Hanzi": "大学",
+   "Pinyin": "Dàxué"
+ },
+ {
+   "Thème": "Lieux",
+   "FR": "Café",
+   "Hanzi": "咖啡馆",
+   "Pinyin": "Kāfēi guǎn"
+ }
+]
