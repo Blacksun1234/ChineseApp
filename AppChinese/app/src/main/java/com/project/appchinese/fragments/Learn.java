@@ -23,7 +23,7 @@ public class Learn extends Fragment
 {
     private ExoAdapter adapter;
     private RecyclerView recyclerView;
-    private List<Exo> exos = new ArrayList<>();
+    private List<Exo> exercises = new ArrayList<>();
 
     @Nullable
     @Override
@@ -32,9 +32,14 @@ public class Learn extends Fragment
         View view = inflater.inflate(R.layout.learn,container,false);
         recyclerView = view.findViewById(R.id.exos);
 
-        exos.add(new Exo("Base I", Exo1.class));
+        exercises.add(new Exo("Base I", Exo1.class));
+        exercises.add(new Exo("Base II", Exo1.class));
+        exercises.add(new Exo("Base III", Exo1.class));
+        exercises.add(new Exo("Base IV", Exo1.class));
+        exercises.add(new Exo("Base V", Exo1.class));
+        exercises.add(new Exo("Base VI", Exo1.class));
 
-        adapter = new ExoAdapter(getActivity(), exos);
+        adapter = new ExoAdapter(getActivity(), exercises);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
