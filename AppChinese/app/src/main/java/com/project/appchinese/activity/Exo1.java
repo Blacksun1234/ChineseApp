@@ -1,8 +1,10 @@
-package com.project.appchinese;
+package com.project.appchinese.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.project.appchinese.R;
 
 public class Exo1 extends AppCompatActivity {
 

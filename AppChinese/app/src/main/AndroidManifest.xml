@@ -14,10 +14,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Exo1"></activity>
+        <activity android:name=".activity.Exo1"></activity>
         <activity android:name=".exo_type1" />
-        <activity android:name=".Menu" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.Menu" />
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

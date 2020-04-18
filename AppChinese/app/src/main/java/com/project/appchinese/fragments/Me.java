@@ -1,4 +1,4 @@
-package com.project.appchinese;
+package com.project.appchinese.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,11 +9,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-public class Dashboard extends Fragment {
+import com.project.appchinese.R;
+
+public class Me extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.dashboard,container,false);
+        return inflater.inflate(R.layout.me,container,false);
     }
 }
