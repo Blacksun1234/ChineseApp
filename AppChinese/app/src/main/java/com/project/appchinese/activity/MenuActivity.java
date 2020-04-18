@@ -56,9 +56,4 @@ public class MenuActivity extends AppCompatActivity implements BottomNavigationV
         }
         return true;
     }
-
-    public void onClickBasis1(View view){
-        Intent intent = new Intent(this, Exo1Activity.class);
-        startActivity(intent);
-    }
 }

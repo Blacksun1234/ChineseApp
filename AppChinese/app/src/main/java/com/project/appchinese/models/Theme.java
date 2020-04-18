@@ -1,8 +1,9 @@
 package com.project.appchinese.models;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Theme
+public class Theme implements Serializable
 {
 	private String theme;
 	private List<Word> words;

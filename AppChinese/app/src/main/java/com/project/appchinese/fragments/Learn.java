@@ -1,7 +1,6 @@
 package com.project.appchinese.fragments;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,12 +14,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.project.appchinese.R;
-import com.project.appchinese.Utils;
-import com.project.appchinese.activity.Exo1Activity;
 import com.project.appchinese.adapters.ExoAdapter;
-import com.project.appchinese.models.Exo;
 import com.project.appchinese.models.Theme;
-import com.project.appchinese.models.Word;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -32,8 +27,6 @@ public class Learn extends Fragment
 {
     private ExoAdapter adapter;
     private RecyclerView recyclerView;
-
-    private List<Exo> exercises = new ArrayList<>();
 
     private List<Theme> themes;
 
@@ -48,12 +41,7 @@ public class Learn extends Fragment
 
         loadJson();
 
-        for(Theme theme : themes)
-        {
-            exercises.add(new Exo(theme, Exo1Activity.class));
-        }
-
-        adapter = new ExoAdapter(getActivity(), exercises);
+        adapter = new ExoAdapter(getActivity(), themes);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 

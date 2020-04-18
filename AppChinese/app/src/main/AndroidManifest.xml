@@ -24,6 +24,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.ExercisesActivity" />
+        <activity android:name=".activity.Exo3Activity" />
     </application>
 
 </manifest>
