@@ -16,11 +16,7 @@ public class Learn extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        getActivity();
         return inflater.inflate(R.layout.learn,container,false);
-    }
-
-    public void onClickBasis1(View view){
-        Intent intent = new Intent(getActivity(), Exo1.class);
-        startActivity(intent);
     }
 }

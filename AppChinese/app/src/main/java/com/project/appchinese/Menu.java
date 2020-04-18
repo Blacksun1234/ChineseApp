@@ -3,8 +3,11 @@ package com.project.appchinese;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
@@ -48,5 +51,10 @@ public class Menu extends AppCompatActivity implements BottomNavigationView.OnNa
             getSupportFragmentManager().beginTransaction().replace(R.id.content, fragment).commit();
         }
         return true;
+    }
+
+    public void onClickBasis1(View view){
+        Intent intent = new Intent(this, Exo1.class);
+        startActivity(intent);
     }
 }
