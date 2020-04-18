@@ -1,0 +1,622 @@
+[
+ {
+   "Q1PY": "wŏ shì Péngyǒu",
+   "Q1HZ": "我是朋友",
+   "Q1FR": "suis Ami",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "wŏ shì Fùqīn",
+   "Q1HZ": "我是父亲",
+   "Q1FR": "suis Père",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "wŏ shì Mǔqīn",
+   "Q1HZ": "我是母亲",
+   "Q1FR": "suis Mère",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "wŏ shì bàbà",
+   "Q1HZ": "我是爸爸",
+   "Q1FR": "suis Papa",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "wŏ shì māma",
+   "Q1HZ": "我是妈妈",
+   "Q1FR": "suis Maman",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "wŏ shì Xiōngdì",
+   "Q1HZ": "我是兄弟",
+   "Q1FR": "suis Frère",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "wŏ shì Jiěmèi",
+   "Q1HZ": "我是姐妹",
+   "Q1FR": "suis Sœur",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "wŏ shì Érzi",
+   "Q1HZ": "我是儿子",
+   "Q1FR": "suis Fils",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "wŏ shì Nǚ'ér",
+   "Q1HZ": "我是女儿",
+   "Q1FR": "suis Fille",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "wŏ shì Shūshu",
+   "Q1HZ": "我是叔叔",
+   "Q1FR": "suis Oncle",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "wŏ shì Yí",
+   "Q1HZ": "我是姨",
+   "Q1FR": "suis Tante",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "wŏ shì Zhí er",
+   "Q1HZ": "我是侄儿",
+   "Q1FR": "suis Neveu",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "wŏ shì Zhínǚ",
+   "Q1HZ": "我是侄女",
+   "Q1FR": "suis Nièce",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "wŏ shì biǎo xiōng",
+   "Q1HZ": "我是表兄",
+   "Q1FR": "suis Cousin",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "wŏ shì biǎo zǐmèi",
+   "Q1HZ": "我是表姊妹",
+   "Q1FR": "suis Cousine",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "wŏ shì yéyé",
+   "Q1HZ": "我是爷爷",
+   "Q1FR": "suis Grand-père",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "wŏ shì nǎinai",
+   "Q1HZ": "我是奶奶",
+   "Q1FR": "suis Grand-mère",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "wŏ shì Sūnzi",
+   "Q1HZ": "我是孙子",
+   "Q1FR": "suis Petit-fils",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "wŏ shì Sūnnǚ",
+   "Q1HZ": "我是孙女",
+   "Q1FR": "suis Petite-fille",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "wŏ shì Nǚ péngyǒu",
+   "Q1HZ": "我是女朋友",
+   "Q1FR": "suis Petite amie",
+   "bon choix": "Je",
+   "choix 1": "Tu",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Je"
+ },
+ {
+   "Q1PY": "nĭ shì Péngyǒu",
+   "Q1HZ": "你是朋友",
+   "Q1FR": "es Ami",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "nĭ shì Fùqīn",
+   "Q1HZ": "你是父亲",
+   "Q1FR": "es Père",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "nĭ shì Mǔqīn",
+   "Q1HZ": "你是母亲",
+   "Q1FR": "es Mère",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "nĭ shì bàbà",
+   "Q1HZ": "你是爸爸",
+   "Q1FR": "es Papa",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "nĭ shì māma",
+   "Q1HZ": "你是妈妈",
+   "Q1FR": "es Maman",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "nĭ shì Xiōngdì",
+   "Q1HZ": "你是兄弟",
+   "Q1FR": "es Frère",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "nĭ shì Jiěmèi",
+   "Q1HZ": "你是姐妹",
+   "Q1FR": "es Sœur",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "nĭ shì Érzi",
+   "Q1HZ": "你是儿子",
+   "Q1FR": "es Fils",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "nĭ shì Nǚ'ér",
+   "Q1HZ": "你是女儿",
+   "Q1FR": "es Fille",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "nĭ shì Shūshu",
+   "Q1HZ": "你是叔叔",
+   "Q1FR": "es Oncle",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "nĭ shì Yí",
+   "Q1HZ": "你是姨",
+   "Q1FR": "es Tante",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "nĭ shì Zhí er",
+   "Q1HZ": "你是侄儿",
+   "Q1FR": "es Neveu",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "nĭ shì Zhínǚ",
+   "Q1HZ": "你是侄女",
+   "Q1FR": "es Nièce",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "nĭ shì biǎo xiōng",
+   "Q1HZ": "你是表兄",
+   "Q1FR": "es Cousin",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "nĭ shì biǎo zǐmèi",
+   "Q1HZ": "你是表姊妹",
+   "Q1FR": "es Cousine",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "nĭ shì yéyé",
+   "Q1HZ": "你是爷爷",
+   "Q1FR": "es Grand-père",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "nĭ shì nǎinai",
+   "Q1HZ": "你是奶奶",
+   "Q1FR": "es Grand-mère",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "nĭ shì Sūnzi",
+   "Q1HZ": "你是孙子",
+   "Q1FR": "es Petit-fils",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "nĭ shì Sūnnǚ",
+   "Q1HZ": "你是孙女",
+   "Q1FR": "es Petite-fille",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "nĭ shì Nǚ péngyǒu",
+   "Q1HZ": "你是女朋友",
+   "Q1FR": "es Petite amie",
+   "bon choix": "Tu",
+   "choix 1": "Je",
+   "choix 2": "Il",
+   "choix 3": "Elle",
+   "choix 4": "Tu"
+ },
+ {
+   "Q1PY": "tā shì Péngyǒu",
+   "Q1HZ": "他是朋友",
+   "Q1FR": "est Ami",
+   "bon choix": "Il",
+   "choix 1": "Je",
+   "choix 2": "Tu",
+   "choix 3": "Elle",
+   "choix 4": "Il"
+ },
+ {
+   "Q1PY": "tā shì Fùqīn",
+   "Q1HZ": "他是父亲",
+   "Q1FR": "est Père",
+   "bon choix": "Il",
+   "choix 1": "Je",
+   "choix 2": "Tu",
+   "choix 3": "Elle",
+   "choix 4": "Il"
+ },
+ {
+   "Q1PY": "tā shì bàbà",
+   "Q1HZ": "他是爸爸",
+   "Q1FR": "est Papa",
+   "bon choix": "Il",
+   "choix 1": "Je",
+   "choix 2": "Tu",
+   "choix 3": "Elle",
+   "choix 4": "Il"
+ },
+ {
+   "Q1PY": "tā shì Xiōngdì",
+   "Q1HZ": "他是兄弟",
+   "Q1FR": "est Frère",
+   "bon choix": "Il",
+   "choix 1": "Je",
+   "choix 2": "Tu",
+   "choix 3": "Elle",
+   "choix 4": "Il"
+ },
+ {
+   "Q1PY": "tā shì Érzi",
+   "Q1HZ": "他是儿子",
+   "Q1FR": "est Fils",
+   "bon choix": "Il",
+   "choix 1": "Je",
+   "choix 2": "Tu",
+   "choix 3": "Elle",
+   "choix 4": "Il"
+ },
+ {
+   "Q1PY": "tā shì Shūshu",
+   "Q1HZ": "他是叔叔",
+   "Q1FR": "est Oncle",
+   "bon choix": "Il",
+   "choix 1": "Je",
+   "choix 2": "Tu",
+   "choix 3": "Elle",
+   "choix 4": "Il"
+ },
+ {
+   "Q1PY": "tā shì Zhí er",
+   "Q1HZ": "他是侄儿",
+   "Q1FR": "est Neveu",
+   "bon choix": "Il",
+   "choix 1": "Je",
+   "choix 2": "Tu",
+   "choix 3": "Elle",
+   "choix 4": "Il"
+ },
+ {
+   "Q1PY": "tā shì biǎo xiōng",
+   "Q1HZ": "他是表兄",
+   "Q1FR": "est Cousin",
+   "bon choix": "Il",
+   "choix 1": "Je",
+   "choix 2": "Tu",
+   "choix 3": "Elle",
+   "choix 4": "Il"
+ },
+ {
+   "Q1PY": "tā shì yéyé",
+   "Q1HZ": "他是爷爷",
+   "Q1FR": "est Grand-père",
+   "bon choix": "Il",
+   "choix 1": "Je",
+   "choix 2": "Tu",
+   "choix 3": "Elle",
+   "choix 4": "Il"
+ },
+ {
+   "Q1PY": "tā shì nǎinai",
+   "Q1HZ": "他是奶奶",
+   "Q1FR": "est Grand-mère",
+   "bon choix": "Il",
+   "choix 1": "Je",
+   "choix 2": "Tu",
+   "choix 3": "Elle",
+   "choix 4": "Il"
+ },
+ {
+   "Q1PY": "tā shì Sūnzi",
+   "Q1HZ": "他是孙子",
+   "Q1FR": "est Petit-fils",
+   "bon choix": "Il",
+   "choix 1": "Je",
+   "choix 2": "Tu",
+   "choix 3": "Elle",
+   "choix 4": "Il"
+ },
+ {
+   "Q1PY": "tā shì Péngyǒu",
+   "Q1HZ": "她是朋友",
+   "Q1FR": "est Amie",
+   "bon choix": "Elle",
+   "choix 1": "Il",
+   "choix 2": "Je",
+   "choix 3": "Tu",
+   "choix 4": "Elle"
+ },
+ {
+   "Q1PY": "tā shì Mǔqīn",
+   "Q1HZ": "她是母亲",
+   "Q1FR": "est Mère",
+   "bon choix": "Elle",
+   "choix 1": "Il",
+   "choix 2": "Je",
+   "choix 3": "Tu",
+   "choix 4": "Elle"
+ },
+ {
+   "Q1PY": "tā shì māma",
+   "Q1HZ": "她是妈妈",
+   "Q1FR": "est Maman",
+   "bon choix": "Elle",
+   "choix 1": "Il",
+   "choix 2": "Je",
+   "choix 3": "Tu",
+   "choix 4": "Elle"
+ },
+ {
+   "Q1PY": "tā shì Jiěmèi",
+   "Q1HZ": "她是姐妹",
+   "Q1FR": "est Sœur",
+   "bon choix": "Elle",
+   "choix 1": "Il",
+   "choix 2": "Je",
+   "choix 3": "Tu",
+   "choix 4": "Elle"
+ },
+ {
+   "Q1PY": "tā shì Nǚ'ér",
+   "Q1HZ": "她是女儿",
+   "Q1FR": "est Fille",
+   "bon choix": "Elle",
+   "choix 1": "Il",
+   "choix 2": "Je",
+   "choix 3": "Tu",
+   "choix 4": "Elle"
+ },
+ {
+   "Q1PY": "tā shì Yí",
+   "Q1HZ": "她是姨",
+   "Q1FR": "est Tante",
+   "bon choix": "Elle",
+   "choix 1": "Il",
+   "choix 2": "Je",
+   "choix 3": "Tu",
+   "choix 4": "Elle"
+ },
+ {
+   "Q1PY": "tā shì Zhínǚ",
+   "Q1HZ": "她是侄女",
+   "Q1FR": "est Nièce",
+   "bon choix": "Elle",
+   "choix 1": "Il",
+   "choix 2": "Je",
+   "choix 3": "Tu",
+   "choix 4": "Elle"
+ },
+ {
+   "Q1PY": "tā shì biǎo zǐmèi",
+   "Q1HZ": "她是表姊妹",
+   "Q1FR": "est Cousine",
+   "bon choix": "Elle",
+   "choix 1": "Il",
+   "choix 2": "Je",
+   "choix 3": "Tu",
+   "choix 4": "Elle"
+ },
+ {
+   "Q1PY": "tā shì nǎinai",
+   "Q1HZ": "她是奶奶",
+   "Q1FR": "est Grand-mère",
+   "bon choix": "Elle",
+   "choix 1": "Il",
+   "choix 2": "Je",
+   "choix 3": "Tu",
+   "choix 4": "Elle"
+ },
+ {
+   "Q1PY": "tā shì Sūnnǚ",
+   "Q1HZ": "她是孙女",
+   "Q1FR": "est Petite-fille",
+   "bon choix": "Elle",
+   "choix 1": "Il",
+   "choix 2": "Je",
+   "choix 3": "Tu",
+   "choix 4": "Elle"
+ },
+ {
+   "Q1PY": "tā shì Nǚ péngyǒu",
+   "Q1HZ": "她是女朋友",
+   "Q1FR": "est Petite amie",
+   "bon choix": "Elle",
+   "choix 1": "Il",
+   "choix 2": "Je",
+   "choix 3": "Tu",
+   "choix 4": "Elle"
+ }
+]

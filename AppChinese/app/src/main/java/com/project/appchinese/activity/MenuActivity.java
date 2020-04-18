@@ -1,9 +1,5 @@
 package com.project.appchinese.activity;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -11,13 +7,17 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.project.appchinese.fragments.Me;
 import com.project.appchinese.R;
 import com.project.appchinese.fragments.Dashboard;
 import com.project.appchinese.fragments.Learn;
+import com.project.appchinese.fragments.Me;
 
-public class Menu extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener
+public class MenuActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener
 {
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -58,7 +58,7 @@ public class Menu extends AppCompatActivity implements BottomNavigationView.OnNa
     }
 
     public void onClickBasis1(View view){
-        Intent intent = new Intent(this, Exo1.class);
+        Intent intent = new Intent(this, Exo1Activity.class);
         startActivity(intent);
     }
 }

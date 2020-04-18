@@ -1,0 +1,746 @@
+[
+    {
+        "hanzi": "我是朋友",
+        "pinyin": "wŏ shì Péngyǒu",
+        "fr": "Je suis",
+        "correct": "Ami",
+        "choices": [
+            "Petit-fils",
+            "Fils",
+            "Oncle",
+            "Ami"
+        ]
+    },
+    {
+        "hanzi": "我是父亲",
+        "pinyin": "wŏ shì Fùqīn",
+        "fr": "Je suis",
+        "correct": "Père",
+        "choices": [
+            "Amie",
+            "Fille",
+            "Tante",
+            "Père"
+        ]
+    },
+    {
+        "hanzi": "我是母亲",
+        "pinyin": "wŏ shì Mǔqīn",
+        "fr": "Je suis",
+        "correct": "Mère",
+        "choices": [
+            "Mère",
+            "Oncle",
+            "Neveu",
+            "Mère"
+        ]
+    },
+    {
+        "hanzi": "我是爸爸",
+        "pinyin": "wŏ shì bàbà",
+        "fr": "Je suis",
+        "correct": "Papa",
+        "choices": [
+            "Maman",
+            "Tante",
+            "Nièce",
+            "Papa"
+        ]
+    },
+    {
+        "hanzi": "我是妈妈",
+        "pinyin": "wŏ shì māma",
+        "fr": "Je suis",
+        "correct": "Maman",
+        "choices": [
+            "Sœur",
+            "Neveu",
+            "Cousin",
+            "Maman"
+        ]
+    },
+    {
+        "hanzi": "我是兄弟",
+        "pinyin": "wŏ shì Xiōngdì",
+        "fr": "Je suis",
+        "correct": "Frère",
+        "choices": [
+            "Fille",
+            "Nièce",
+            "Cousine",
+            "Frère"
+        ]
+    },
+    {
+        "hanzi": "我是姐妹",
+        "pinyin": "wŏ shì Jiěmèi",
+        "fr": "Je suis",
+        "correct": "Sœur",
+        "choices": [
+            "Tante",
+            "Cousin",
+            "Grand-père",
+            "Sœur"
+        ]
+    },
+    {
+        "hanzi": "我是儿子",
+        "pinyin": "wŏ shì Érzi",
+        "fr": "Je suis",
+        "correct": "Fils",
+        "choices": [
+            "Nièce",
+            "Cousine",
+            "Grand-mère",
+            "Fils"
+        ]
+    },
+    {
+        "hanzi": "我是女儿",
+        "pinyin": "wŏ shì Nǚ'ér",
+        "fr": "Je suis",
+        "correct": "Fille",
+        "choices": [
+            "Cousine",
+            "Grand-père",
+            "Petit-fils",
+            "Fille"
+        ]
+    },
+    {
+        "hanzi": "我是叔叔",
+        "pinyin": "wŏ shì Shūshu",
+        "fr": "Je suis",
+        "correct": "Oncle",
+        "choices": [
+            "Grand-mère",
+            "Grand-mère",
+            "Petite-fille",
+            "Oncle"
+        ]
+    },
+    {
+        "hanzi": "我是姨",
+        "pinyin": "wŏ shì Yí",
+        "fr": "Je suis",
+        "correct": "Tante",
+        "choices": [
+            "Petite-fille",
+            "Petit-fils",
+            "Petite amie",
+            "Tante"
+        ]
+    },
+    {
+        "hanzi": "我是侄儿",
+        "pinyin": "wŏ shì Zhí er",
+        "fr": "Je suis",
+        "correct": "Neveu",
+        "choices": [
+            "Petite amie",
+            "Petite-fille",
+            "Ami",
+            "Neveu"
+        ]
+    },
+    {
+        "hanzi": "我是侄女",
+        "pinyin": "wŏ shì Zhínǚ",
+        "fr": "Je suis",
+        "correct": "Nièce",
+        "choices": [
+            "Ami",
+            "Petite amie",
+            "Père",
+            "Nièce"
+        ]
+    },
+    {
+        "hanzi": "我是表兄",
+        "pinyin": "wŏ shì biǎo xiōng",
+        "fr": "Je suis",
+        "correct": "Cousin",
+        "choices": [
+            "Père",
+            "Ami",
+            "Papa",
+            "Cousin"
+        ]
+    },
+    {
+        "hanzi": "我是表姊妹",
+        "pinyin": "wŏ shì biǎo zǐmèi",
+        "fr": "Je suis",
+        "correct": "Cousine",
+        "choices": [
+            "Mère",
+            "Père",
+            "Frère",
+            "Cousine"
+        ]
+    },
+    {
+        "hanzi": "我是爷爷",
+        "pinyin": "wŏ shì yéyé",
+        "fr": "Je suis",
+        "correct": "Grand-père",
+        "choices": [
+            "Papa",
+            "Papa",
+            "Fils",
+            "Grand-père"
+        ]
+    },
+    {
+        "hanzi": "我是奶奶",
+        "pinyin": "wŏ shì nǎinai",
+        "fr": "Je suis",
+        "correct": "Grand-mère",
+        "choices": [
+            "Maman",
+            "Frère",
+            "Oncle",
+            "Grand-mère"
+        ]
+    },
+    {
+        "hanzi": "我是孙子",
+        "pinyin": "wŏ shì Sūnzi",
+        "fr": "Je suis",
+        "correct": "Petit-fils",
+        "choices": [
+            "Frère",
+            "Fils",
+            "Neveu",
+            "Petit-fils"
+        ]
+    },
+    {
+        "hanzi": "我是孙女",
+        "pinyin": "wŏ shì Sūnnǚ",
+        "fr": "Je suis",
+        "correct": "Petite-fille",
+        "choices": [
+            "Sœur",
+            "Oncle",
+            "Cousin",
+            "Petite-fille"
+        ]
+    },
+    {
+        "hanzi": "我是女朋友",
+        "pinyin": "wŏ shì Nǚ péngyǒu",
+        "fr": "Je suis",
+        "correct": "Petite amie",
+        "choices": [
+            "Fils",
+            "Neveu",
+            "Grand-père",
+            "Petite amie"
+        ]
+    },
+    {
+        "hanzi": "你是朋友",
+        "pinyin": "nĭ shì Péngyǒu",
+        "fr": "Tu es",
+        "correct": "Ami",
+        "choices": [
+            "Fille",
+            "Cousin",
+            "Grand-mère",
+            "Ami"
+        ]
+    },
+    {
+        "hanzi": "你是父亲",
+        "pinyin": "nĭ shì Fùqīn",
+        "fr": "Tu es",
+        "correct": "Père",
+        "choices": [
+            "Oncle",
+            "Grand-père",
+            "Petit-fils",
+            "Père"
+        ]
+    },
+    {
+        "hanzi": "你是母亲",
+        "pinyin": "nĭ shì Mǔqīn",
+        "fr": "Tu es",
+        "correct": "Mère",
+        "choices": [
+            "Tante",
+            "Grand-mère",
+            "Amie",
+            "Mère"
+        ]
+    },
+    {
+        "hanzi": "你是爸爸",
+        "pinyin": "nĭ shì bàbà",
+        "fr": "Tu es",
+        "correct": "Papa",
+        "choices": [
+            "Neveu",
+            "Petit-fils",
+            "Mère",
+            "Papa"
+        ]
+    },
+    {
+        "hanzi": "你是妈妈",
+        "pinyin": "nĭ shì māma",
+        "fr": "Tu es",
+        "correct": "Maman",
+        "choices": [
+            "Nièce",
+            "Amie",
+            "Maman",
+            "Maman"
+        ]
+    },
+    {
+        "hanzi": "你是兄弟",
+        "pinyin": "nĭ shì Xiōngdì",
+        "fr": "Tu es",
+        "correct": "Frère",
+        "choices": [
+            "Cousin",
+            "Mère",
+            "Sœur",
+            "Frère"
+        ]
+    },
+    {
+        "hanzi": "你是姐妹",
+        "pinyin": "nĭ shì Jiěmèi",
+        "fr": "Tu es",
+        "correct": "Sœur",
+        "choices": [
+            "Cousine",
+            "Maman",
+            "Fille",
+            "Sœur"
+        ]
+    },
+    {
+        "hanzi": "你是儿子",
+        "pinyin": "nĭ shì Érzi",
+        "fr": "Tu es",
+        "correct": "Fils",
+        "choices": [
+            "Grand-père",
+            "Sœur",
+            "Tante",
+            "Fils"
+        ]
+    },
+    {
+        "hanzi": "你是女儿",
+        "pinyin": "nĭ shì Nǚ'ér",
+        "fr": "Tu es",
+        "correct": "Fille",
+        "choices": [
+            "Grand-mère",
+            "Fille",
+            "Nièce",
+            "Fille"
+        ]
+    },
+    {
+        "hanzi": "你是叔叔",
+        "pinyin": "nĭ shì Shūshu",
+        "fr": "Tu es",
+        "correct": "Oncle",
+        "choices": [
+            "Petit-fils",
+            "Tante",
+            "Cousine",
+            "Oncle"
+        ]
+    },
+    {
+        "hanzi": "你是姨",
+        "pinyin": "nĭ shì Yí",
+        "fr": "Tu es",
+        "correct": "Tante",
+        "choices": [
+            "Petite-fille",
+            "Nièce",
+            "Grand-mère",
+            "Tante"
+        ]
+    },
+    {
+        "hanzi": "你是侄儿",
+        "pinyin": "nĭ shì Zhí er",
+        "fr": "Tu es",
+        "correct": "Neveu",
+        "choices": [
+            "Petite amie",
+            "Cousine",
+            "Petite-fille",
+            "Neveu"
+        ]
+    },
+    {
+        "hanzi": "你是侄女",
+        "pinyin": "nĭ shì Zhínǚ",
+        "fr": "Tu es",
+        "correct": "Nièce",
+        "choices": [
+            "Ami",
+            "Grand-mère",
+            "Petite amie",
+            "Nièce"
+        ]
+    },
+    {
+        "hanzi": "你是表兄",
+        "pinyin": "nĭ shì biǎo xiōng",
+        "fr": "Tu es",
+        "correct": "Cousin",
+        "choices": [
+            "Père",
+            "Petite-fille",
+            "Ami",
+            "Cousin"
+        ]
+    },
+    {
+        "hanzi": "你是表姊妹",
+        "pinyin": "nĭ shì biǎo zǐmèi",
+        "fr": "Tu es",
+        "correct": "Cousine",
+        "choices": [
+            "Mère",
+            "Petite amie",
+            "Père",
+            "Cousine"
+        ]
+    },
+    {
+        "hanzi": "你是爷爷",
+        "pinyin": "nĭ shì yéyé",
+        "fr": "Tu es",
+        "correct": "Grand-père",
+        "choices": [
+            "Papa",
+            "Ami",
+            "Mère",
+            "Grand-père"
+        ]
+    },
+    {
+        "hanzi": "你是奶奶",
+        "pinyin": "nĭ shì nǎinai",
+        "fr": "Tu es",
+        "correct": "Grand-mère",
+        "choices": [
+            "Maman",
+            "Père",
+            "Papa",
+            "Grand-mère"
+        ]
+    },
+    {
+        "hanzi": "你是孙子",
+        "pinyin": "nĭ shì Sūnzi",
+        "fr": "Tu es",
+        "correct": "Petit-fils",
+        "choices": [
+            "Frère",
+            "Mère",
+            "Maman",
+            "Petit-fils"
+        ]
+    },
+    {
+        "hanzi": "你是孙女",
+        "pinyin": "nĭ shì Sūnnǚ",
+        "fr": "Tu es",
+        "correct": "Petite-fille",
+        "choices": [
+            "Sœur",
+            "Papa",
+            "Frère",
+            "Petite-fille"
+        ]
+    },
+    {
+        "hanzi": "你是女朋友",
+        "pinyin": "nĭ shì Nǚ péngyǒu",
+        "fr": "Tu es",
+        "correct": "Petite amie",
+        "choices": [
+            "Fils",
+            "Maman",
+            "Sœur",
+            "Petite amie"
+        ]
+    },
+    {
+        "hanzi": "他是朋友",
+        "pinyin": "tā shì Péngyǒu",
+        "fr": "Il est",
+        "correct": "Ami",
+        "choices": [
+            "Fille",
+            "Frère",
+            "Fils",
+            "Ami"
+        ]
+    },
+    {
+        "hanzi": "他是父亲",
+        "pinyin": "tā shì Fùqīn",
+        "fr": "Il est",
+        "correct": "Père",
+        "choices": [
+            "Oncle",
+            "Sœur",
+            "Fille",
+            "Père"
+        ]
+    },
+    {
+        "hanzi": "他是爸爸",
+        "pinyin": "tā shì bàbà",
+        "fr": "Il est",
+        "correct": "Papa",
+        "choices": [
+            "Tante",
+            "Fils",
+            "Oncle",
+            "Papa"
+        ]
+    },
+    {
+        "hanzi": "他是兄弟",
+        "pinyin": "tā shì Xiōngdì",
+        "fr": "Il est",
+        "correct": "Frère",
+        "choices": [
+            "Neveu",
+            "Fille",
+            "Tante",
+            "Frère"
+        ]
+    },
+    {
+        "hanzi": "他是儿子",
+        "pinyin": "tā shì Érzi",
+        "fr": "Il est",
+        "correct": "Fils",
+        "choices": [
+            "Nièce",
+            "Oncle",
+            "Neveu",
+            "Fils"
+        ]
+    },
+    {
+        "hanzi": "他是叔叔",
+        "pinyin": "tā shì Shūshu",
+        "fr": "Il est",
+        "correct": "Oncle",
+        "choices": [
+            "Cousin",
+            "Tante",
+            "Nièce",
+            "Oncle"
+        ]
+    },
+    {
+        "hanzi": "他是侄儿",
+        "pinyin": "tā shì Zhí er",
+        "fr": "Il est",
+        "correct": "Neveu",
+        "choices": [
+            "Cousine",
+            "Neveu",
+            "Cousin",
+            "Neveu"
+        ]
+    },
+    {
+        "hanzi": "他是表兄",
+        "pinyin": "tā shì biǎo xiōng",
+        "fr": "Il est",
+        "correct": "Cousin",
+        "choices": [
+            "Grand-père",
+            "Nièce",
+            "Cousine",
+            "Cousin"
+        ]
+    },
+    {
+        "hanzi": "他是爷爷",
+        "pinyin": "tā shì yéyé",
+        "fr": "Il est",
+        "correct": "Grand-père",
+        "choices": [
+            "Grand-mère",
+            "Cousin",
+            "Grand-père",
+            "Grand-père"
+        ]
+    },
+    {
+        "hanzi": "他是奶奶",
+        "pinyin": "tā shì nǎinai",
+        "fr": "Il est",
+        "correct": "Grand-mère",
+        "choices": [
+            "Petit-fils",
+            "Cousine",
+            "Grand-mère",
+            "Grand-mère"
+        ]
+    },
+    {
+        "hanzi": "他是孙子",
+        "pinyin": "tā shì Sūnzi",
+        "fr": "Il est",
+        "correct": "Petit-fils",
+        "choices": [
+            "Petite-fille",
+            "Grand-père",
+            "Petit-fils",
+            "Petit-fils"
+        ]
+    },
+    {
+        "hanzi": "她是朋友",
+        "pinyin": "tā shì Péngyǒu",
+        "fr": "Elle est",
+        "correct": "Amie",
+        "choices": [
+            "Petite amie",
+            "Grand-mère",
+            "Petite-fille",
+            "Amie"
+        ]
+    },
+    {
+        "hanzi": "她是母亲",
+        "pinyin": "tā shì Mǔqīn",
+        "fr": "Elle est",
+        "correct": "Mère",
+        "choices": [
+            "Ami",
+            "Petit-fils",
+            "Petite amie",
+            "Mère"
+        ]
+    },
+    {
+        "hanzi": "她是妈妈",
+        "pinyin": "tā shì māma",
+        "fr": "Elle est",
+        "correct": "Maman",
+        "choices": [
+            "Père",
+            "Petite-fille",
+            "Ami",
+            "Maman"
+        ]
+    },
+    {
+        "hanzi": "她是姐妹",
+        "pinyin": "tā shì Jiěmèi",
+        "fr": "Elle est",
+        "correct": "Sœur",
+        "choices": [
+            "Papa",
+            "Petite amie",
+            "Père",
+            "Sœur"
+        ]
+    },
+    {
+        "hanzi": "她是女儿",
+        "pinyin": "tā shì Nǚ'ér",
+        "fr": "Elle est",
+        "correct": "Fille",
+        "choices": [
+            "Frère",
+            "Ami",
+            "Mère",
+            "Fille"
+        ]
+    },
+    {
+        "hanzi": "她是姨",
+        "pinyin": "tā shì Yí",
+        "fr": "Elle est",
+        "correct": "Tante",
+        "choices": [
+            "Fils",
+            "Père",
+            "Papa",
+            "Tante"
+        ]
+    },
+    {
+        "hanzi": "她是侄女",
+        "pinyin": "tā shì Zhínǚ",
+        "fr": "Elle est",
+        "correct": "Nièce",
+        "choices": [
+            "Oncle",
+            "Mère",
+            "Maman",
+            "Nièce"
+        ]
+    },
+    {
+        "hanzi": "她是表姊妹",
+        "pinyin": "tā shì biǎo zǐmèi",
+        "fr": "Elle est",
+        "correct": "Cousine",
+        "choices": [
+            "Neveu",
+            "Papa",
+            "Frère",
+            "Cousine"
+        ]
+    },
+    {
+        "hanzi": "她是奶奶",
+        "pinyin": "tā shì nǎinai",
+        "fr": "Elle est",
+        "correct": "Grand-mère",
+        "choices": [
+            "Cousin",
+            "Maman",
+            "Sœur",
+            "Grand-mère"
+        ]
+    },
+    {
+        "hanzi": "她是孙女",
+        "pinyin": "tā shì Sūnnǚ",
+        "fr": "Elle est",
+        "correct": "Petite-fille",
+        "choices": [
+            "Grand-père",
+            "Frère",
+            "Fils",
+            "Petite-fille"
+        ]
+    },
+    {
+        "hanzi": "她是女朋友",
+        "pinyin": "tā shì Nǚ péngyǒu",
+        "fr": "Elle est",
+        "correct": "Petite amie",
+        "choices": [
+            "Grand-mère",
+            "Sœur",
+            "Fille",
+            "Petite amie"
+        ]
+    }
+]

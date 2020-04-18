@@ -4,17 +4,21 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Exo
 {
-	private String title;
+	private Theme theme;
 	private Class<? extends AppCompatActivity> activity;
 
-	public Exo(String title, Class<? extends AppCompatActivity> activity)
+	public Exo(Theme theme, Class<? extends AppCompatActivity> activity)
 	{
-		this.title = title;
+		this.theme = theme;
 		this.activity = activity;
 	}
 
 	public String getTitle() {
-		return title;
+		return theme.getTheme();
+	}
+
+	public Theme getTheme() {
+		return theme;
 	}
 
 	public Class<? extends AppCompatActivity> getActivity() {
