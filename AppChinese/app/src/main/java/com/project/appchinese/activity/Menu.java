@@ -57,7 +57,7 @@ public class Menu extends AppCompatActivity implements BottomNavigationView.OnNa
         return true;
     }
 
-    public void onClickBasis1(View view) {
+    public void onClickBasis1(View view){
         Intent intent = new Intent(this, Exo1.class);
         startActivity(intent);
     }
