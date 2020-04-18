@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickNext(View view){
-        Intent intent = new Intent(this,Menu.class);
+        Intent intent = new Intent(MainActivity.this,Menu.class);
         startActivity(intent);
     }
 /*
