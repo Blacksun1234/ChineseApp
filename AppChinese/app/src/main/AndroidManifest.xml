@@ -14,8 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.Exo1Activity"></activity>
-        <activity android:name=".exo_type1" />
+        <activity android:name=".activity.exercises.TranslateActivity"/>
+        <activity android:name=".activity.exercises.GapTextActivity"/>
         <activity android:name=".activity.MenuActivity" />
         <activity android:name=".activity.MainActivity">
             <intent-filter>
@@ -25,7 +25,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.ExercisesActivity" />
-        <activity android:name=".activity.Exo3Activity" />
     </application>
 
 </manifest>

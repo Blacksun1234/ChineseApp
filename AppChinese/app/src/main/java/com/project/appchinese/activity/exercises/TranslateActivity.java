@@ -1,4 +1,4 @@
-package com.project.appchinese.activity;
+package com.project.appchinese.activity.exercises;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -21,7 +21,7 @@ import java.util.List;
 
 import de.mateware.snacky.Snacky;
 
-public class Exo1Activity extends AppCompatActivity
+public class TranslateActivity extends AppCompatActivity
 {
     private TextView textView;
     private EditText editText;
@@ -43,13 +43,13 @@ public class Exo1Activity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_exo1);
+        setContentView(R.layout.activity_translate);
 
         theme = (Theme) getIntent().getExtras().getSerializable("theme");
 
         List<Word> copy = theme.getWords();
         Collections.shuffle(copy);
-        if(copy.size() < 3) {
+        if(copy.size() < max) {
             words = copy;
         }
         else {
@@ -93,8 +93,6 @@ public class Exo1Activity extends AppCompatActivity
                     .setText("Bravo, c'est la bonne réponse !\n" + count + "/" + max)
                     .setDuration(BaseTransientBottomBar.LENGTH_LONG);
             snackbar.show();
-
-            //Toasty.success(this, "Bravo, c'est la bonne réponse !", Toast.LENGTH_SHORT, true).show();
             next();
         }
         else {
@@ -105,8 +103,6 @@ public class Exo1Activity extends AppCompatActivity
                             "\n" + count + "/" + max)
                     .setDuration(BaseTransientBottomBar.LENGTH_INDEFINITE);
             snackbar.show();
-
-            //Toasty.error(this, "Cette réponse est incorrecte !", Toast.LENGTH_LONG, true).show();
 
             if(words.size() == count) {
                 next.setText(R.string.end);

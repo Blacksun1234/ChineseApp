@@ -1,6 +1,5 @@
 package com.project.appchinese.activity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +8,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.project.appchinese.R;
+import com.project.appchinese.activity.exercises.TranslateActivity;
 
 public class ExercisesActivity extends AppCompatActivity
 {
@@ -21,14 +21,14 @@ public class ExercisesActivity extends AppCompatActivity
 
 	public void onClickExo1(View view)
 	{
-		Intent intent = new Intent(this, Exo1Activity.class);
+		Intent intent = new Intent(this, TranslateActivity.class);
 		intent.putExtra("theme", getIntent().getSerializableExtra("theme"));
 		startActivityForResult(intent, 0);
 	}
 
 	public void onClickExo2(View view)
 	{
-		Intent intent = new Intent(this, Exo1Activity.class);
+		Intent intent = new Intent(this, TranslateActivity.class);
 		intent.putExtra("theme", getIntent().getSerializableExtra("theme"));
 		startActivityForResult(intent, 0);
 	}
