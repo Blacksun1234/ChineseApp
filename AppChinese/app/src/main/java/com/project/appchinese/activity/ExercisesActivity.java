@@ -35,8 +35,8 @@ public class ExercisesActivity extends AppCompatActivity
 
 	public void onClickExo3(View view)
 	{
-		Intent intent = new Intent(this, Exo1Activity.class);
-		intent.putExtra("theme", getIntent().getSerializableExtra("theme"));
+		Intent intent = new Intent(this, Exo3Activity.class);
+		//intent.putExtra("theme", getIntent().getSerializableExtra("theme"));
 		startActivityForResult(intent, 0);
 	}
 
