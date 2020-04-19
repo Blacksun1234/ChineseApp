@@ -40,5 +40,5 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.6'
     implementation 'com.github.matecode:Snacky:1.1.5'
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
-    implementation 'com.sha.kamel:multi-toggle-button:1.8.3@aar'
+    implementation 'org.honorato.multistatetogglebutton:multistatetogglebutton:0.2.2'
 }

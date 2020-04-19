@@ -4,68 +4,43 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".activity.Exo3Activity">
+    tools:context=".activity.exercises.GapTextActivity">
 
     <TextView
         android:id="@+id/sentence"
-        android:layout_width="372dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="72dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.589"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="291dp"
-        android:layout_height="54dp"
-        android:layout_marginBottom="260dp"
-        android:text="@string/next"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <RadioGroup
-        android:id="@+id/groupradio"
-        android:layout_width="290dp"
-        android:layout_height="138dp"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+    <org.honorato.multistatetogglebutton.MultiStateToggleButton
+        android:id="@+id/choices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sentence">
+        app:layout_constraintTop_toBottomOf="@+id/sentence"
+        app:singleSelection="true"/>
 
-        <!-- In RadioGroup create the 1 Radio Button-->
-        <!-- like this we will add some more Radio Button-->
-        <RadioButton
-            android:id="@+id/Ranswer1"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="choix1"
-            android:textSize="20dp" />
-
-        <RadioButton
-            android:id="@+id/Ranswer2"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="choix2"
-            android:textSize="20dp" />
-
-        <RadioButton
-            android:id="@+id/Ranswer3"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="choix3"
-            android:textSize="20dp" />
-
-        <RadioButton
-            android:id="@+id/Ranswer4"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="choix4"
-            android:textSize="20dp" />
-    </RadioGroup>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/next"
+        android:onClick="onClickNext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choices" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

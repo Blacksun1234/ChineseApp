@@ -106,6 +106,7 @@ public class TranslateActivity extends AppCompatActivity
 
             if(words.size() == count) {
                 next.setText(R.string.end);
+                view.setVisibility(View.INVISIBLE);
             }
             next.setVisibility(View.VISIBLE);
         }

@@ -1,6 +1,7 @@
 package com.project.appchinese.fragments;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.project.appchinese.R;
+import com.project.appchinese.Utils;
 import com.project.appchinese.adapters.ExoAdapter;
 import com.project.appchinese.models.Theme;
 
@@ -32,14 +34,15 @@ public class Learn extends Fragment
 
     @Nullable
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState)
     {
         View view = inflater.inflate(R.layout.learn,container,false);
         recyclerView = view.findViewById(R.id.exos);
 
         themes = new ArrayList<>();
 
-        loadJson();
+        loadData();
 
         adapter = new ExoAdapter(getActivity(), themes);
         recyclerView.setAdapter(adapter);
@@ -48,12 +51,11 @@ public class Learn extends Fragment
         return view;
     }
 
-    private void loadJson()
+    private void loadData()
     {
         Gson gson = new Gson();
-
         Type type = new TypeToken<List<Theme>>(){}.getType();
-        themes = gson.fromJson(new BufferedReader(new InputStreamReader(getResources().openRawResource(R.raw.exo1))), type);
+        themes = gson.fromJson(new BufferedReader(new InputStreamReader(getResources()
+                .openRawResource(R.raw.data))), type);
     }
-
 }
