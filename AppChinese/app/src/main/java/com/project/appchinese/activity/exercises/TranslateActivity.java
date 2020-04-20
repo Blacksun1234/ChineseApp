@@ -62,6 +62,8 @@ public class TranslateActivity extends AppCompatActivity
         editText = findViewById(R.id.answer);
         next = findViewById(R.id.next);
         updateView();
+
+        editText.setText(isWord ? "Word" : "Sentence");
     }
 
     private void updateView()

@@ -1,59 +1,47 @@
 package com.project.appchinese.activity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.tabs.TabLayout;
 import com.project.appchinese.R;
-import com.project.appchinese.fragments.Dashboard;
-import com.project.appchinese.fragments.Learn;
-import com.project.appchinese.fragments.Me;
+import com.project.appchinese.adapters.MenuAdapter;
 
-public class MenuActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener
+public class MenuActivity extends AppCompatActivity
 {
+    private ViewPager pager;
+    private MenuAdapter adapter;
+
+
+    private TabLayout tabs;
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN );
-        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.menu);
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.content, new Learn()).commit();
+        pager = findViewById(R.id.pager);
+        tabs = findViewById(R.id.navigation);
 
-        BottomNavigationView bottomNavigationView = findViewById(R.id.navigation);
-        bottomNavigationView.setOnNavigationItemSelectedListener(this);
+        adapter = new MenuAdapter(getSupportFragmentManager());
+        pager.setAdapter(adapter);
+        tabs.setupWithViewPager(pager);
+
+        setTabs();
     }
 
-    @Override
-    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        Fragment fragment = null;
+    private  void setTabs()
+    {
+        tabs.getTabAt(0).setIcon(R.drawable.ic_learn_black_24dp);
+        tabs.getTabAt(0).setText(R.string.learn);
 
-        switch (item.getItemId()) {
-            case R.id.learn:
-                fragment = new Learn();
-                break;
+        tabs.getTabAt(1).setIcon(R.drawable.ic_dashboard_black_24dp);
+        tabs.getTabAt(1).setText(R.string.dashboard);
 
-            case R.id.dashboard:
-                fragment = new Dashboard();
-                break;
-
-            case R.id.me:
-                fragment = new Me();
-                break;
-        }
-
-        if(fragment != null){
-            getSupportFragmentManager().beginTransaction().replace(R.id.content, fragment).commit();
-        }
-        return true;
+        tabs.getTabAt(2).setIcon(R.drawable.ic_account_circle_black_24dp);
+        tabs.getTabAt(2).setText(R.string.me);
     }
 }

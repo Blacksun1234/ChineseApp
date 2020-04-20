@@ -1,7 +1,6 @@
 package com.project.appchinese.fragments;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,7 +14,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.project.appchinese.R;
-import com.project.appchinese.Utils;
 import com.project.appchinese.adapters.ExoAdapter;
 import com.project.appchinese.models.Theme;
 
@@ -27,6 +25,8 @@ import java.util.List;
 
 public class Learn extends Fragment
 {
+    private View view;
+
     private ExoAdapter adapter;
     private RecyclerView recyclerView;
 
@@ -37,16 +37,20 @@ public class Learn extends Fragment
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState)
     {
-        View view = inflater.inflate(R.layout.learn,container,false);
-        recyclerView = view.findViewById(R.id.exos);
+        if(view == null)
+        {
+            view = inflater.inflate(R.layout.learn,container,false);
 
-        themes = new ArrayList<>();
+            recyclerView = view.findViewById(R.id.exos);
 
-        loadData();
+            themes = new ArrayList<>();
 
-        adapter = new ExoAdapter(getActivity(), themes);
-        recyclerView.setAdapter(adapter);
-        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+            loadData();
+
+            adapter = new ExoAdapter(getActivity(), themes);
+            recyclerView.setAdapter(adapter);
+            recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        }
 
         return view;
     }
