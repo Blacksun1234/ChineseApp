@@ -133,6 +133,7 @@
                 "pinyin": "Fùmǔ"
             }
         ],
+        "sentences": [],
         "choices": [
             {
                 "hanzi": "我是朋友",
@@ -924,6 +925,7 @@
                 "pinyin": "tāmen"
             }
         ],
+        "sentences": [],
         "choices": []
     },
     {
@@ -985,6 +987,7 @@
                 "pinyin": "Zuò"
             }
         ],
+        "sentences": [],
         "choices": []
     },
     {
@@ -1021,6 +1024,7 @@
                 "pinyin": "Měiguó rén"
             }
         ],
+        "sentences": [],
         "choices": []
     },
     {
@@ -1037,6 +1041,7 @@
                 "pinyin": "Zhè"
             }
         ],
+        "sentences": [],
         "choices": []
     },
     {
@@ -1083,6 +1088,7 @@
                 "pinyin": "tāmen de"
             }
         ],
+        "sentences": [],
         "choices": []
     },
     {
@@ -1199,6 +1205,7 @@
                 "pinyin": "Mǔ jī"
             }
         ],
+        "sentences": [],
         "choices": []
     },
     {
@@ -1320,6 +1327,7 @@
                 "pinyin": "Húluóbo"
             }
         ],
+        "sentences": [],
         "choices": []
     },
     {
@@ -1341,6 +1349,7 @@
                 "pinyin": "lăoshī"
             }
         ],
+        "sentences": [],
         "choices": []
     },
     {
@@ -1397,6 +1406,7 @@
                 "pinyin": "Jìsuànjī rényuán"
             }
         ],
+        "sentences": [],
         "choices": []
     },
     {
@@ -1523,6 +1533,7 @@
                 "pinyin": "Kāfēi guǎn"
             }
         ],
+        "sentences": [],
         "choices": []
     }
 ]

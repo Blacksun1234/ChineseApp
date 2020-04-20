@@ -14,7 +14,7 @@ import com.google.android.material.snackbar.Snackbar;
 import com.project.appchinese.R;
 import com.project.appchinese.Utils;
 import com.project.appchinese.models.Theme;
-import com.project.appchinese.models.Word;
+import com.project.appchinese.models.Translate;
 
 import java.util.Collections;
 import java.util.List;
@@ -31,7 +31,8 @@ public class TranslateActivity extends AppCompatActivity
 
     private int count = 0;
     private int max = 3;
-    private List<Word> words;
+    private List<Translate> translates;
+    boolean isWord = true;
 
     private int correctAnswers = 0;
     private boolean replied = false;
@@ -46,17 +47,18 @@ public class TranslateActivity extends AppCompatActivity
         setContentView(R.layout.activity_translate);
 
         theme = (Theme) getIntent().getExtras().getSerializable("theme");
+        isWord = getIntent().getExtras().getBoolean("word");
 
-        List<Word> copy = theme.getWords();
+        List<Translate> copy = isWord ? theme.getWords() : theme.getSentences();
         Collections.shuffle(copy);
         if(copy.size() < max) {
-            words = copy;
+            translates = copy;
         }
         else {
-            words = copy.subList(0, max);
+            translates = copy.subList(0, max);
         }
 
-        textView = findViewById(R.id.word);
+        textView = findViewById(R.id.translate);
         editText = findViewById(R.id.answer);
         next = findViewById(R.id.next);
         updateView();
@@ -64,9 +66,9 @@ public class TranslateActivity extends AppCompatActivity
 
     private void updateView()
     {
-        Log.d(Utils.TAG, "Answer : " + words.get(count).getFr());
+        Log.d(Utils.TAG, "Answer : " + translates.get(count).getFr());
         clickNext = false;
-        textView.setText(words.get(count).getHanzi());
+        textView.setText(translates.get(count).getHanzi());
         editText.setText("");
         next.setVisibility(View.INVISIBLE);
     }
@@ -83,10 +85,10 @@ public class TranslateActivity extends AppCompatActivity
         replied = true;
         correctAnswers++;
 
-        Word word = words.get(count);
+        Translate translate = translates.get(count);
         count++;
 
-        if(answer.toLowerCase().equals(word.getFr().toLowerCase())) {
+        if(answer.toLowerCase().equals(translate.getFr().toLowerCase())) {
             snackbar = Snacky.builder()
                     .setActivity(this)
                     .success()
@@ -99,12 +101,12 @@ public class TranslateActivity extends AppCompatActivity
             snackbar = Snacky.builder()
                     .setActivity(this)
                     .error()
-                    .setText("Réponse incorrecte !\nVoici la bonne réponse : " + word.getFr() +
+                    .setText("Réponse incorrecte !\nVoici la bonne réponse : " + translate.getFr() +
                             "\n" + count + "/" + max)
                     .setDuration(BaseTransientBottomBar.LENGTH_INDEFINITE);
             snackbar.show();
 
-            if(words.size() == count) {
+            if(translates.size() == count) {
                 next.setText(R.string.end);
                 view.setVisibility(View.INVISIBLE);
             }
@@ -115,7 +117,7 @@ public class TranslateActivity extends AppCompatActivity
     public void next()
     {
         replied = false;
-        if(words.size() == count) {
+        if(translates.size() == count) {
             next.setText(R.string.end);
             next.setVisibility(View.VISIBLE);
             if(clickNext) {

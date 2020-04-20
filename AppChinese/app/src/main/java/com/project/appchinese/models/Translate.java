@@ -2,13 +2,13 @@ package com.project.appchinese.models;
 
 import java.io.Serializable;
 
-public class Word implements Serializable
+public class Translate implements Serializable
 {
 	private String fr;
 	private String hanzi;
 	private String pinyin;
 
-	public Word(String fr, String hanzi, String pinyin)
+	public Translate(String fr, String hanzi, String pinyin)
 	{
 		this.fr = fr;
 		this.hanzi = hanzi;

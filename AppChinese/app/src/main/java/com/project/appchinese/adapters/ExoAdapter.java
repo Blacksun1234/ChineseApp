@@ -14,10 +14,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.project.appchinese.R;
 import com.project.appchinese.activity.ExercisesActivity;
 import com.project.appchinese.models.Theme;
-import com.project.appchinese.models.Word;
 
 import java.util.List;
-import java.util.Random;
 
 public class ExoAdapter extends RecyclerView.Adapter<ExoAdapter.ViewHolder>
 {

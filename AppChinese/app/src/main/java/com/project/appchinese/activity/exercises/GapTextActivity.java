@@ -18,7 +18,6 @@ import com.project.appchinese.models.Theme;
 
 import org.honorato.multistatetogglebutton.MultiStateToggleButton;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -28,7 +27,8 @@ public class GapTextActivity extends AppCompatActivity
 {
 	private MultiStateToggleButton buttons;
 	private Button next;
-	private TextView textView;
+	private TextView sentence;
+	private TextView fr;
 
 	private Theme theme;
 	private Choice choice;
@@ -58,7 +58,8 @@ public class GapTextActivity extends AppCompatActivity
 			choices = copy.subList(0, max);
 		}
 
-		textView = findViewById(R.id.sentence);
+		sentence = findViewById(R.id.sentence);
+		fr = findViewById(R.id.fr);
 		buttons = findViewById(R.id.choices);
 		next = findViewById(R.id.next);
 
@@ -69,7 +70,9 @@ public class GapTextActivity extends AppCompatActivity
 	{
 		choice = choices.get(count);
 		Log.d(Utils.TAG, "Answer : " + choice.getCorrect());
-		textView.setText(choice.getHanzi());
+
+		sentence.setText(choice.getHanzi());
+		fr.setText(choice.getFr());
 		List<String> copy = choice.getChoices();
 		Collections.shuffle(copy);
 		buttons.setElements(copy);

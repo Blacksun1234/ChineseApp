@@ -37,6 +37,10 @@ public class ExercisesActivity extends AppCompatActivity
 			exo1.setEnabled(false);
 		}
 
+		if(theme.getSentences().isEmpty()) {
+			exo2.setEnabled(false);
+		}
+
 		if(theme.getChoices().isEmpty()) {
 			exo3.setEnabled(false);
 		}
@@ -46,6 +50,7 @@ public class ExercisesActivity extends AppCompatActivity
 	{
 		Intent intent = new Intent(this, TranslateActivity.class);
 		intent.putExtra("theme", theme);
+		intent.putExtra("word", true);
 		startActivityForResult(intent, 0);
 	}
 
@@ -53,6 +58,7 @@ public class ExercisesActivity extends AppCompatActivity
 	{
 		Intent intent = new Intent(this, TranslateActivity.class);
 		intent.putExtra("theme", theme);
+		intent.putExtra("word", false);
 		startActivityForResult(intent, 0);
 	}
 
