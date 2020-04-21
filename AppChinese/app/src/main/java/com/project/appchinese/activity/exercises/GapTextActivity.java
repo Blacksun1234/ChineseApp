@@ -14,6 +14,7 @@ import com.google.android.material.snackbar.Snackbar;
 import com.project.appchinese.R;
 import com.project.appchinese.Utils;
 import com.project.appchinese.models.Choice;
+import com.project.appchinese.models.Database;
 import com.project.appchinese.models.Theme;
 
 import org.honorato.multistatetogglebutton.MultiStateToggleButton;
@@ -33,7 +34,6 @@ public class GapTextActivity extends AppCompatActivity
 	private Theme theme;
 	private Choice choice;
 
-	public List<Integer> correctAnswersTabGapText;
 	private int correctAnswers = 0;
 	private int max = 3;
 	private int count = 0;
@@ -81,8 +81,9 @@ public class GapTextActivity extends AppCompatActivity
 
 	public void onClickNext(View view)
 	{
-		if(choices.size() == count) {
-			correctAnswersTabGapText.add(correctAnswers);
+		if(choices.size() == count)
+		{
+			Database.getInstance().addGrade(correctAnswers);
 			finish();
 			return;
 		}

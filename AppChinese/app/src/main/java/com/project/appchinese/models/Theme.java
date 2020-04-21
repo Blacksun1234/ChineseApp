@@ -10,6 +10,13 @@ public class Theme implements Serializable
 	private List<Translate> sentences;
 	private List<Choice> choices;
 
+	public enum Exercise
+	{
+		TRANSLATE_WORD,
+		TRANSLATE_SENTENCE,
+		GAP_TEXT
+	}
+
 	public Theme(String theme, List<Translate> words, List<Translate> sentences, List<Choice> choices)
 	{
 		this.theme = theme;
