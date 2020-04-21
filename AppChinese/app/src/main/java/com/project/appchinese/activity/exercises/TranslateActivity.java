@@ -13,6 +13,7 @@ import com.google.android.material.snackbar.BaseTransientBottomBar;
 import com.google.android.material.snackbar.Snackbar;
 import com.project.appchinese.R;
 import com.project.appchinese.Utils;
+import com.project.appchinese.models.Database;
 import com.project.appchinese.models.Theme;
 import com.project.appchinese.models.Translate;
 
@@ -34,7 +35,6 @@ public class TranslateActivity extends AppCompatActivity
     private List<Translate> translates;
     boolean isWord = true;
 
-    public List<Integer> correctAnswersTabTranslate;
     private int correctAnswers = 0;
     private boolean replied = false;
     private boolean clickNext = true;
@@ -123,8 +123,9 @@ public class TranslateActivity extends AppCompatActivity
         if(translates.size() == count) {
             next.setText(R.string.end);
             next.setVisibility(View.VISIBLE);
-            if(clickNext) {
-                correctAnswersTabTranslate.add(correctAnswers);
+            if(clickNext)
+            {
+                Database.getInstance().addGrade(correctAnswers);
                 finish();
             }
         }
