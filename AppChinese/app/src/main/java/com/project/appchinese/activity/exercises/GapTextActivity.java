@@ -122,6 +122,6 @@ public class GapTextActivity extends AppCompatActivity
 			updateView();
 		}
 
-		
+
 	}
 }
