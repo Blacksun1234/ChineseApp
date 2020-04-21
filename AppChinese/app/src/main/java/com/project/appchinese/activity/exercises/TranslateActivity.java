@@ -34,6 +34,7 @@ public class TranslateActivity extends AppCompatActivity
     private List<Translate> translates;
     boolean isWord = true;
 
+    public List<Integer> correctAnswersTabTranslate;
     private int correctAnswers = 0;
     private boolean replied = false;
     private boolean clickNext = true;
@@ -123,6 +124,7 @@ public class TranslateActivity extends AppCompatActivity
             next.setText(R.string.end);
             next.setVisibility(View.VISIBLE);
             if(clickNext) {
+                correctAnswersTabTranslate.add(correctAnswers);
                 finish();
             }
         }

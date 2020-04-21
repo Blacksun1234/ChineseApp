@@ -41,4 +41,5 @@ dependencies {
     implementation 'com.github.matecode:Snacky:1.1.5'
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
     implementation 'org.honorato.multistatetogglebutton:multistatetogglebutton:0.2.2'
+    implementation 'com.jjoe64:graphview:4.2.2'
 }

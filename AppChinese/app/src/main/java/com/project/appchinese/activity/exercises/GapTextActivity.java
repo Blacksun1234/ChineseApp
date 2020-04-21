@@ -33,6 +33,7 @@ public class GapTextActivity extends AppCompatActivity
 	private Theme theme;
 	private Choice choice;
 
+	public List<Integer> correctAnswersTabGapText;
 	private int correctAnswers = 0;
 	private int max = 3;
 	private int count = 0;
@@ -81,6 +82,7 @@ public class GapTextActivity extends AppCompatActivity
 	public void onClickNext(View view)
 	{
 		if(choices.size() == count) {
+			correctAnswersTabGapText.add(correctAnswers);
 			finish();
 			return;
 		}
@@ -119,5 +121,7 @@ public class GapTextActivity extends AppCompatActivity
 		else {
 			updateView();
 		}
+
+		
 	}
 }
