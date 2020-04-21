@@ -64,7 +64,7 @@ public class TranslateActivity extends AppCompatActivity
         next = findViewById(R.id.next);
         updateView();
 
-        editText.setText(isWord ? "Word" : "Sentence");
+        editText.setHint(isWord ? "Word" : "Sentence");
     }
 
     private void updateView()
