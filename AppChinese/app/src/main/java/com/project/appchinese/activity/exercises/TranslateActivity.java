@@ -86,7 +86,6 @@ public class TranslateActivity extends AppCompatActivity
         String answer = editText.getText().toString();
 
         replied = true;
-        correctAnswers++;
 
         Translate translate = translates.get(count);
         count++;
@@ -98,6 +97,7 @@ public class TranslateActivity extends AppCompatActivity
                     .setText("Bravo, c'est la bonne réponse !\n" + count + "/" + max)
                     .setDuration(BaseTransientBottomBar.LENGTH_LONG);
             snackbar.show();
+            correctAnswers++;
             next();
         }
         else {

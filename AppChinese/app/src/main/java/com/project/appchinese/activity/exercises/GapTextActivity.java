@@ -104,6 +104,7 @@ public class GapTextActivity extends AppCompatActivity
 					.setText("Bravo, c'est la bonne réponse !\n" + count + "/" + max)
 					.setDuration(BaseTransientBottomBar.LENGTH_LONG);
 			snackbar.show();
+			correctAnswers++;
 		}
 		else
 		{
